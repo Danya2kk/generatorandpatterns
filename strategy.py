@@ -53,3 +53,6 @@ print(calculator.calculate(5, 3))
 
 calculator.set_strategy(Multiplication())
 print(calculator.calculate(5, 3))
+
+calculator.set_strategy(Division())
+print(calculator.calculate(1, 0))
