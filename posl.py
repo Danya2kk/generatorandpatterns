@@ -16,6 +16,7 @@ def foo():
             num = 1
 
 
+print('hello')
 n = int(input("Введите n: "))
 obj = foo()
 
